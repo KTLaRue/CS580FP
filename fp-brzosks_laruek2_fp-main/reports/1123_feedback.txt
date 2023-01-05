@@ -1,0 +1,3 @@
+Looks like good progress, and a solid plan for the rest of the project. 
+
+The "preferred sampling" method seems like it's causing biased (not just noisy) results. If, as I understand it from our conversations your approach is to just randomly sample from a small cone around the mirror direction, this is not surprising. I'd suggest looking into importance sampling and adapting your approach so that you're sampling randomly but with higher probability in these more important directions, then normalizing the contributions by the sampling PDF so that you end up with an unbiased estimate.

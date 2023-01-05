@@ -1,0 +1,1 @@
+we are planning on doing basic implementation of volumetric lighting and global illumination with our attempts at optimizing both of these processes

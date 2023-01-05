@@ -1,0 +1,24 @@
+could have talked about how these differ from what we talked about
+"basic overview" slide could use an image illustrating what both look like
+
+Volumetric lighting
+
+The slides are pretty text-heavy, and at the pace you were going, the text doesn't add much because there's not time to listen to you and read it as well. It's generally a good idea to have the slides be primarily there to provide visual support for what you're saying. The figure on the transmittance slide is helpful - this is the kind of thing I'd like to see more of.
+You mention beer's law but didn't really say what this means; you don't need to go through the equation in detail, but you could still talk about the high-level intuition.
+
+The interactive demo was great - really helpful to see the visual effect of the different parameters to the model. 
+
+
+Are all of those examples rendered? Skyfall?
+
+Would be good to pause and ask for questions between the two sections.
+
+Global illumination
+
+The figures are helpful; it would be useful to walk over to them and point along the arrows as you describe the path of the light.
+
+When motivating monte carlo, it would be useful to phrase this intractable problem as the computation of an integral. For the bullet-point algorithm ("putting it together" slide), it would be helpful to have a pointer or highlights that step through them one at a time so it's easy to reference the one you're talking about. When you talked about the high cost of recursively generating rays, you made the point well but made a digression before offering a solution. This was ok, but a little jarring. The interactive demo was helpful
+
+When you showed the different levels of noise for a given number of samples, what does 256 samples mean? Is that 256 generated for every bounce?
+
+Student feedback was positive - a number of people were hungry for more details in terms of math or pseudocode, but with the time available you covered things at a pretty good level. Perhaps next time I'd encourage you to scope it narrower but deeper.
